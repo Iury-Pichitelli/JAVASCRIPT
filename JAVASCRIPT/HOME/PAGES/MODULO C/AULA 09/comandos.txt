@@ -1,0 +1,49 @@
+header^nav^main>article^footer
+
+comentários:
+// em uma linha 
+ou
+/* */ em mais de uma linha
+
+Variáveis: 
+
+var a1 = null = vazio
+
+No javascript modermo além de atribuirmos a palavra "var" a uma variável podemos também usar a palavra "let"
+
+A três formas de declarar uma string em javascript com "", '' ou ``;
+
+Indentificador	= nome da variável.
+
+Regras de identificadores:
+
+Podemos começar com letra, $ ou _
+É possível usar letras ou números
+É possível usar acentos e símbolos
+Não podem começar com números
+Não podem conter espaços
+Não podem ser palavras reservadas do JS
+
+No javascript os números não são separados do tipo inteiro e decimnal (int ou float)
+Todos são (number) = 5, 18, -12, 0.5, -15.9, 3.14, 8.0
+Valor boleano = boolean = False or True
+
+Data types = tipos primitivos
+
+- number
+    infinity
+    NaN
+- string
+- boolean
+- null
+- undefined
+- object
+    array
+- function
+
+comando:
+
+> var n = 8
+> typeof n
+> 'number'
+

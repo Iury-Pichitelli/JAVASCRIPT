@@ -1,0 +1,21 @@
+ECMASCRIPT E A LINGUAGEM PADRONIZADA DO JAVASCRIPT
+
+Ele foi criado por Brendan Eich em 1995 enquanto trabalhava na Netscape Communications Corporation. O objetivo era desenvolver uma linguagem de script para ser usada em navegadores web. Inicialmente, ela foi chamada de Mocha, depois LiveScript e, por fim, JavaScript.
+
+Java e Javascript são baseadas em C
+
+Java: Tem uma sintaxe semelhante à de C, especialmente na estrutura de controle (if, for, while, switch). No entanto, Java é uma linguagem totalmente orientada a objetos e não permite manipulação direta de memória como C.
+
+JavaScript: Também possui uma sintaxe parecida com C, mas sua semântica é muito diferente. JavaScript é interpretado, dinâmico e baseado em protótipos, enquanto C é compilado e fortemente tipado.
+
+V8 e o motor que roda o javacript (codigo livre)
+node.js maquina que roda javacript fora do navegador
+
+SDK (Software Development Kit)
+
+jquery -> mozilla
+Angular -> google
+React -> facebook
+Veu -> um ex empregado do google
+electrion -> github
+ionic -> mobile 

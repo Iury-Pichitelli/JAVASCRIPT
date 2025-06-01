@@ -1,0 +1,29 @@
+/project-root
+    /src
+        /assets = Arquivos estáticos como imagens, fontes, ícones, vídeos e áudios.
+            /images
+            /fonts
+            /icons
+            /videos
+            /audio
+    /components =  Componentes reutilizáveis da interface do usuário.
+    /pages = Páginas do site, geralmente organizadas por rotas.
+    /styles = Arquivos de estilos CSS ou pré-processadores como SASS/SCSS.
+        /css
+        /scss
+    /scripts = Scripts JavaScript ou TypeScript.
+        /utils = Funções utilitárias que podem ser usadas em várias partes do projeto.
+        /lib = Bibliotecas ou módulos customizados.
+    /public = Arquivos públicos que não precisam ser processados pelo bundler. 
+            Inclui imagens, CSS e JavaScript que serão servidos diretamente.
+        /images
+        /css
+        /js
+    /tests = Arquivos de teste.
+        /unit = Testes unitários.
+        /integration = Testes de integração.
+        /e2e = Testes de ponta a ponta.
+    /build = Arquivos gerados após o processo de build.
+    .gitignore = Arquivo para especificar quais arquivos/pastas devem ser ignorados pelo Git.
+    package.json = Arquivo de configuração do npm que lista dependências e scripts do projeto.
+    README.md = Documentação do projeto.

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../icon/icons8-javascript-144.png" type="image/x-icon">
+    <link rel="stylesheet" href="../../../../css/style.css">
+    <script src="../script/script.js" defer></script>
+    <title>Módulo B - Aula 05</title>
+</head>
+<body>
+    <header>
+        <img src="../images/icons8-javascript 100.svg" alt="">
+        <h1>Módulo B: Comandos Básicos do JavaScript</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../../../../index/home.html">Home</a></li>
+            <li><a href="../../../MODULO A/AULA 04/index/index.html">Modulo A</a></li>
+            <li><a href="../../../MODULO B/AULA 05 - VARIAVEIS E TIPOS PRIMITIVOS/index/index.html">Modulo B</a></li>
+            <li><a href="../index/aula_09.html">Modulo C</a></li>
+            <li><a href="#">Modulo D</a></li>
+            <li><a href="#">Modulo E</a></li>
+            <li><a href="#">help</a></li>
+        </ul>
+    </nav>
+    <main>
+        <article>
+            <h1>Introduction to DOM (Document Object Model)</h1>
+            <h2>Anotações:</h2>
+            <a class="next_page" href="../../AULA 06 - TRATAMENTOS DE DADOS/index/index.html"> >> Next</a>
+            <pre>
+
+                <h1> Parei 15:32 aula 09 Introduction DOM</h1>
+> DOM: É um acrônomo para Document Object Model, que esta dentro do navegador.
+
+> Árvore DOM: Ela começa da raiz dentro do navegador sendo o Objeto WINDOW.
+Dentro do objeto WINDOW temos outros objetos sendo alguns deles:
+
+* window:
+    * Location: Que diz qual é a URL, qual é a página atual, qual é a página anterior;
+    * Document: Que é o documento atual;
+       * HTML: (parent of Head and Body) and child of Document
+            * Head (child of HTML)
+                * meta (child of head)
+                * title (child of head)
+            * Body (child of HTML)
+                * p (child of Body)
+                    * strong (child of p)
+                * div (child of Body)
+                * h1 (child of Body)
+    * History: Que vai guardando de onde você veio, para onde você vai;
+
+===========================================================================================================
+
+> 5 metodos para acessar os elementos em um DOM:
+
+    * Por marca = tagName
+        - getElementsByTagName();
+    * Por ID = ID
+        - getElementsById()
+    * Por Nome = ?
+    * Por classe = Class
+    * Por seletor = CSS
+
+===========================================================================================================
+
+<h3>Iniciando estudos DOM</h3>
+
+Aqui vai o resultado
+
+Aprendendo a usar o <strong>DOM</strong> em JavaScript
+
+<div>Clique em mim</div>
+script 
+    > window.document.write(window.document.charset)
+        <script>            
+            window.document.write(window.document.charset);
+        </script>
+    > window.document.write(window.navigator.appName):
+        <script>            
+            window.document.write(window.navigator.appName);
+        </script>
+    > window.document.write(window.document.URL):
+        <script>            
+            window.document.write(window.document.URL);
+        </script>
+/script
+            </pre>
+            
+            
+        </article>
+    </main>
+    <footer>
+        <p>Developed by Iury Pichitelli</p>
+    </footer>
+</body>
+</html>

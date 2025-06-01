@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../icon/icons8-javascript-144.png" type="image/x-icon">
+    <link rel="stylesheet" href="../../../../css/style.css">
+    <script src="../script/script.js" defer></script>
+    <title>Template html/CSS</title>
+</head>
+<body>
+    <header>
+        <img src="../images/icons8-javascript 100.svg" alt="">
+        <h1>Módulo B: Comandos Básicos do JavaScript</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../../../../index/home.html">Home</a></li>
+            <li><a href="../../../MODULO A/AULA 04/index/index.html">Modulo A</a></li>
+            <li><a href="../../AULA 05 - VARIAVEIS E TIPOS PRIMITIVOS/index/index.html">Modulo B</a></li>
+            <li><a href="../../../MODULO C/AULA 09/index/aula_09.html">Modulo C</a></li>
+            <li><a href="#">Modulo D</a></li>
+            <li><a href="#">Modulo E</a></li>
+            <li><a href="#">help</a></li>
+        </ul>
+    </nav>
+    <main>
+        <article>
+            <h1>Operadores - Part 02</h1>
+            <h2>Anotações - Aula 08:</h2>
+            <a class="next_page" href="../../AULA 07 - OPERADORES PART - 1/index/index.html"> << Back</a>
+            <pre>Regra de precedência dos operadores:
+                
+Primeiro aritméticos: [ () **  *  /  %  +  - ] 
+Segundo relacionais:  [ >  <  >=  <=  ==  !=  === ]
+Terceiro lógicos:     [ !  &&  || ] = not, and e or
+Quarto ternário:      [ ?  :]
+            </pre><br>
+            <pre>
+OPERADORES:
+
+> Relacionais
+
+    Ordem de precedência: Da esquerda para a direita
+
+    [ > ] = maior que 
+    [ < ] = menor que
+    [ >= ] = maior ou igual que
+    [ <= ] = menor ou igual que
+    [ == ] = igual
+    [ != ] = diferente
+            
+Para toda expressão que tenha um operador relacional, o resultado sempre será um valor boolean
+(true or false)
+    
+    5 [ >  ] 2 = true
+    7 [ <  ] 4 = false
+    8 [ >= ] 8 = true
+    9 [ <= ] 7 = false
+    5 [ == ] 5 = true
+    4 [ != ] 4 = false
+
+    Primeiro são os operadores aritméticos e depois os Relacionais
+
+    ex: a <= b - 10
+
+    ================
+
+    Identidade '==='
+
+    5 [ == ] 5 = true 
+    5 [ == ] '5' = true
+    5 [ === ] '5' = false ( O JS não verifica o tipo com '==' mas sim com '===' )
+
+    Diferente estrito
+
+    [ !== ] = são de tipos diferentes
+
+===========================================================================================================
+
+> Lógicos
+    
+    Ordem de precedência = NOT, AND e OR
+
+    [ !  ] = negação = not
+    [ && ] = conjunção = and
+    [ || ] = disjunção = or
+
+    ================================
+
+    Operador unário (um operando)
+    [ !  ] = negação = not
+    false = true
+    true = false
+
+    ================================
+
+    Operador binário (dois operando)
+    [ && ] = conjunção = and
+
+    true && true = true
+    true && false = false
+    false && true = false
+    false && false = false
+
+    ================================
+
+    Operador binário (dois operando)
+    [ || ] = conjunção = or
+
+    true && true = true
+    true && false = true
+    false && true = true
+    false && false = false
+
+===========================================================================================================
+
+> Ternário (precisa de três operandos)
+
+    [ ? ] se for
+    [ : ] se não
+
+    teste [ ? ] true [ : ] false
+
+    média >= 7.0 [ ? ] 'Aprovado' [ : ] 'Reprovado'
+
+    var x = 8
+    var resultado = x % 2 == 0 ? 5 : 9
+    x = 8
+    resultado = 5
+
+===========================================================================================================
+
+
+                
+Obs: Existem mais, depois se aprofundar!
+            </pre>
+        </article>
+    </main>
+    <footer>
+        <p>Developed by Iury Pichitelli</p>
+    </footer>
+</body>
+</html>

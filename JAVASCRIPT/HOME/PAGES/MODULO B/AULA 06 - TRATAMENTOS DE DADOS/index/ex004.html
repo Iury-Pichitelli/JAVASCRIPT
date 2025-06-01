@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../icon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../../../../css/style.css">
+    <script src="../script/script_ex004.js"></script>
+    <title>Tratamento de dados</title>
+</head>
+<body>
+    <header>
+        <h1>Módulo B: Comandos Básicos do JavaScript</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../../../../index/home.html">Home</a></li>
+            <li><a href="../../../MODULO A/AULA 04/index/index.html">Modulo A</a></li>
+            <li><a href="../../AULA 05 - VARIAVEIS E TIPOS PRIMITIVOS/index/index.html">Modulo B</a></li>
+            <li><a href="../../../MODULO C/AULA 09/index/aula_09.html">Modulo C</a></li>
+            <li><a href="#">Modulo D</a></li>
+            <li><a href="#">Modulo E</a></li>
+            <li><a href="#">help</a></li>
+        </ul>
+    </nav>
+    <main>
+        <article>
+            <h1>Exercício 04</h1>
+            <h2>Anotações:</h2>
+            <a class="next_page" href="../../AULA 06 - TRATAMENTOS DE DADOS/index/index.html"> << Back</a>
+            <pre>
+Comandos:
+
+Formatação de strings
+
+var nome = window.prompt('Qual é o seu nome?' )
+document.write(`Seu nome tem ${nome.length} letras`)
+
+document.white() = escreve no html do site
+document.whiteln() = escreve no html mas em uma nova linha
+
+Podemos colocar tags dentro das crases.
+
+Ex: 
+document.writeln(`Olá strong> ${nome} /strong> Seu nome tem ${nome.length} letras`)
+document.write(`Olá ${nome}, seu nome em letras maiúsculas é ${nome.toUpperCase()}`)
+
+================================================
+
+Formatação de números:
+
+var n1 = 1545.5
+document.write(`Seu numero com duas casas decimais: {n1.toFixed(2)}`)
+
+Para trocar o ponto por vírgula podemos fazer o seguinte Comandos
+document.write(`Seu numero com duas casas decimais: {n1.toFixed(2).replace('.', ',')}`)
+
+================================================
+
+Exemplo:
+
+var num = window.prompt('Digite um número decimal: ');
+var quant = window.prompt('Quantos casas decimais voce quer? ');
+
+window.alert(`ola ${Number(num).toFixed(Number(quant)).replace('.', ',')}`);
+
+================================================
+
+Para converter a moeda:
+
+n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+
+
+
+            </pre>
+            <table>
+                <tr>
+                    <th>Códigos aprendidos</th>
+                    <th>Significado</th>
+                    <th>Exemplo</th>
+                </tr>
+                <tr>
+                    <td>var</td>
+                    <td>Variável em js</td>
+                    <td>var nome = ' Iury '</td>
+                </tr>
+                <tr>
+                    <td>window.prompt()</td>
+                    <td>Abre um campo para ser respondido na tela</td>
+                    <td>var nome = window.prompt('Qual e o seu nome?')</td>
+                </tr>
+                <tr>
+                    <td>window.alert()</td>
+                    <td>Mostra uma mensagem na tela (preprogramada)</td>
+                    <td>window.alert("É um prazer:" + nome) <br>
+                        O '+' tem a função de concatenação
+                    </td>
+                </tr>
+                <tr>
+                    <td>Concatenação</td>
+                    <td>Faz a função de palavras</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </article>
+    </main>
+    <footer>
+        <p>Developed by Iury Pichitelli</p>
+    </footer>
+</body>
+</html>

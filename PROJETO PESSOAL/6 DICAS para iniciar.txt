@@ -1,0 +1,114 @@
+Arrumar o meu  Github
+
+********** Básico ************* 1
+
+Estrutura de dados:
+
+Array, list, map
+
+Operadores de uma linguagem:
+
+if, else if, else, for, while
+
+******************************* 2
+
+Projeto do hospital
+
+SUS Internação/ambulatório
+
+Resolver qual problema:
+
+* Tempo para ensinar;
+* Detalhes que possam passar despercebidos;
+* Criar um acrescentador de conhecimento;
+* Dúvidas frequentes;
+* 
+
+******************************* 3
+
+Escolher uma IDE(Integrated Development Environment) com autocomplete
+ADI = Ambiente de Desenvolvimento Integrado: 
+
+IDE = VisualCode
+
+Frameworks para JavaScript: 
+
+............Front-end:
+
+* React (Mais popular)
+* Vue
+* Angular
+* Ember.js
+* Express
+
+Bibliotecas front:
+
+* jQuery (open source):
+
+O jQuery é uma biblioteca leve e rápida que facilita 
+a manipulação de eventos, animações, elementos HTML 
+e utilização de Ajax. 
+
+AJAX é um conjunto de tecnologias que permite a 
+comunicação entre um navegador e um servidor web sem 
+a necessidade de recarregar a página. A sigla AJAX significa 
+"Asynchronous JavaScript and XML", ou seja, "JavaScript 
+Assíncrono e XML". O AJAX é usado para tornar os sites e 
+aplicativos da web mais rápidos, responsivos e interativos. 
+
+...........Back-end:
+
+* Node.js
+* Express.js 
+* Koa.js 
+* Hapi.js 
+* Nest.js 
+* Sails.js 
+* Adonis.js 
+* Meteor.js.
+
+******************************* 4
+
+Como organizar pastas
+Cada linguagem de programação vai possuir uma 
+comunidade de desenvolvimento vai ter uma ou mais 
+maneiras de organizar um projeto de criar uma 
+arquitetura para ele.
+
+Qual a arquitetura de projeto que a 
+comunidade usa para os projetos?
+
+Como eu chamo as minhas pastas?
+
+Como eu organizo as pastas?
+
+****************************** 5
+
+Não reinventar a roda
+
+Por exemplo:
+
+Formatação de CPF, validação de telefone, 
+olhar como os programadores resolveram isso,
+olhar no Stackoverflow e jogar no github o código,
+para ver como os programadores estão organizando, 
+chamando essa função, em que pasta está, separação 
+de responsabilidade....
+
+******************************* 6
+
+Clonar um projeto existente, semelhante ao que quero fazer, 
+colar o código e ir alterando oque deve ser alterado, 
+ler código é importante, e depois fazer do zero, usar esse 
+projeto cópia como consulta.
+
+******************************
+
+
+
+
+
+
+
+
+
